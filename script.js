@@ -3,10 +3,10 @@
   count++;
   totalCount.innerHTML = count;
 }; 
-const incrementCount = document.getElementById("increment-count").addEventListener("click", handleIncrement);
+const incrementCount = document.getElementById("incrementBtn").addEventListener("click", handleIncrement);
 
 
-const totalCount = document.getElementById("total-count");
+const totalCount = document.getElementById("counter");
 
 
 var count = 0;
