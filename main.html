@@ -8,7 +8,15 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <button id="increment-count" onclick="handleIncrement()">increment</button>
+    <div id="total-count">0</div>
     <script type="text/javascript" src="./script.js">
+	  let count = 0;
+      const handleIncrement = () => {
+        count++;
+        alert(count)
+        document.getElementById("total-count").innerHTML = count;
+      };	
 </script>
 
 </body>
