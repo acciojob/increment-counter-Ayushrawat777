@@ -1,7 +1,7 @@
 //your JS code here. If required.
    let count = 0;
-      const handleIncrement = () => {
+      const incrementBtn = () => {
         count++;
         alert(count)
-        document.getElementById("total-count").innerHTML = count;
+        document.getElementById("counter").innerHTML = count;
       };
