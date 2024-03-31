@@ -1,7 +1,15 @@
 //your JS code here. If required.
-   let count = 0;
-      const incrementBtn = () => {
-        count++;
-        alert(count)
-        document.getElementById("counter").innerHTML = count;
-      };
+  const handleIncrement = () => {
+  count++;
+  totalCount.innerHTML = count;
+}; 
+const incrementCount = document.getElementById("increment-count").addEventListener("click", handleIncrement);
+
+
+const totalCount = document.getElementById("total-count");
+
+
+var count = 0;
+
+
+totalCount.innerHTML = count;
